@@ -1,0 +1,76 @@
+import { type Config } from "tailwindcss";
+
+export default {
+  content: [
+    "{routes,islands,components}/**/*.{ts,tsx,js,jsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        "sans": ["Nunito Sans", "sans-serif"],
+      },
+      colors: {
+        "electric_purple": {
+          DEFAULT: "#c200fb",
+          100: "#260032",
+          200: "#4d0064",
+          300: "#730096",
+          400: "#9900c8",
+          500: "#c200fb",
+          600: "#ce2fff",
+          700: "#db63ff",
+          800: "#e797ff",
+          900: "#f3cbff",
+        },
+        "razzmatazz": {
+          DEFAULT: "#ec0868",
+          100: "#2f0215",
+          200: "#5e0329",
+          300: "#8e053e",
+          400: "#bd0753",
+          500: "#ec0868",
+          600: "#f83284",
+          700: "#f965a3",
+          800: "#fb99c2",
+          900: "#fdcce0",
+        },
+        "scarlet": {
+          DEFAULT: "#fc2f00",
+          100: "#320900",
+          200: "#641200",
+          300: "#961b00",
+          400: "#c82500",
+          500: "#fc2f00",
+          600: "#ff552f",
+          700: "#ff8063",
+          800: "#ffaa97",
+          900: "#ffd5cb",
+        },
+        "tangerine": {
+          DEFAULT: "#ec7d10",
+          100: "#2f1903",
+          200: "#5d3206",
+          300: "#8c4b0a",
+          400: "#bb640d",
+          500: "#ec7d10",
+          600: "#f1973c",
+          700: "#f5b16d",
+          800: "#f8cb9e",
+          900: "#fce5ce",
+        },
+        "selective_yellow": {
+          DEFAULT: "#ffbc0a",
+          100: "#352700",
+          200: "#6a4e00",
+          300: "#9f7500",
+          400: "#d49c00",
+          500: "#ffbc0a",
+          600: "#ffcb3b",
+          700: "#ffd86c",
+          800: "#ffe59d",
+          900: "#fff2ce",
+        },
+      },
+    },
+  },
+} satisfies Config;

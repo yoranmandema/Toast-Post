@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Cocogoose";
+  src:
+    url("../resources/fonts/cocogoose/Cocogoose-Pro-Regular-trial.ttf")
+    format("ttf"),
+    url("../resources/fonts/cocogoose/Cocogoose-Pro-Regular-trial.ttf")
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Cocogoose", sans-serif;
+}

@@ -18,12 +18,12 @@ export class FirebaseClient {
 
   constructor() {
     const firebaseConfig: FirebaseOptions = {
-      apiKey: "AIzaSyAIkmrpj9MzEqS_qge6LV9mZ7Itr58Vmok",
+      apiKey: Deno.env.get("FIREBASE_APPKEY"),
       authDomain: "toast-post.firebaseapp.com",
       projectId: "toast-post",
       storageBucket: "toast-post.firebasestorage.app",
       messagingSenderId: "738638358414",
-      appId: "1:738638358414:web:9c65db7def085e593366df",
+      appId: "1:738638358414:web:5aeb22a0102b76233366df"
     };
 
     this.firebaseConfig = firebaseConfig;
